@@ -148,7 +148,7 @@ device.open(() => {
   textData = textData.replace(/[฿]/g, "");
   printer.align("rt").text(textData + "\n");
 
-  printer.align("rt").text("=======================\n");
+  printer.align("rt").text("=======================");
   textLine = `Total: `;
   dataLine = `${formatter.format(data.total.toFixed(2))}`;
   totalLine = textLine.length + dataLine.length;
@@ -157,8 +157,8 @@ device.open(() => {
   textData = textLine + spaces + dataLine;
   textData = textData.replace(/[฿]/g, "");
   // printer.style("b");
-  printer.align("rt").text(textData + "\n");
-  printer.align("rt").text("=======================\n");
+  printer.align("rt").text(textData + "");
+  printer.align("rt").text("=======================");
 
   printer.align("ct").text("---------------------------------------\n");
   // printer.style("b");
