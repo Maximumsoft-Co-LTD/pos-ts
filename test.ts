@@ -80,7 +80,7 @@ device.open(() => {
     let orderLineData = orderLine + spaces + price;
     orderLineData = orderLineData.replace(/[฿]/g, "");
     printer.align("lt");
-    printer.text(orderLineData + "");
+    printer.text(orderLineData + "\n");
 
     item += order.quantity;
   });
