@@ -22,23 +22,23 @@ const formatter = new Intl.NumberFormat("th-TH", {
   currency: "THB", // Change to the desired currency code
 });
 
-orders.forEach((order) => {
-  // printer.align("lt");
-  // printer.text(`${order.quantity} ${order.name} (${order.size})`);
-  // printer.align("rt");
-  // printer.text(`${order.price.toFixed(2)}\n`);
+// orders.forEach((order) => {
+//   // printer.align("lt");
+//   // printer.text(`${order.quantity} ${order.name} (${order.size})`);
+//   // printer.align("rt");
+//   // printer.text(`${order.price.toFixed(2)}\n`);
 
-  let orderLine = `${order.quantity} ${order.name} (${order.size})`;
-  let price = `${formatter.format(order.price.toFixed(2))}`;
-  let totalLine = orderLine.length + price.length;
-  let spacesNeeded = Math.max(0, maxlineLength - totalLine);
-  let spaces = " ".repeat(spacesNeeded);
-  let orderLineData = orderLine + spaces + price;
-  orderLineData = orderLineData.replace(/[฿]/g, "");
-  console.log(orderLineData);
+//   let orderLine = `${order.quantity} ${order.name} (${order.size})`;
+//   let price = `${formatter.format(order.price.toFixed(2))}`;
+//   let totalLine = orderLine.length + price.length;
+//   let spacesNeeded = Math.max(0, maxlineLength - totalLine);
+//   let spaces = " ".repeat(spacesNeeded);
+//   let orderLineData = orderLine + spaces + price;
+//   orderLineData = orderLineData.replace(/[฿]/g, "");
+//   console.log(orderLineData);
 
-  item += order.quantity;
-});
+//   item += order.quantity;
+// });
 
 device.open(() => {
   printer
