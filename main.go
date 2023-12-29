@@ -111,7 +111,7 @@ func main() {
 
 	dateLine := fmt.Sprintf("DATE: %s", dataTime.Format("02/01/2006"))
 	timeLine := fmt.Sprintf("TIME: %s", dataTime.Format("15:04"))
-	totalLine := len(dateLine) + len(fmt.Sprint(data))
+	totalLine := len(dateLine) + len(fmt.Sprint(timeLine))
 	spacesNeeded := Max(0, 48-totalLine)
 	spaces := repeat(" ", spacesNeeded)
 	dataText := dateLine + spaces + timeLine
