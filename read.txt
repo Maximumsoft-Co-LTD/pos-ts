@@ -1,0 +1,10 @@
+url: http://localhost:8000
+tunnel: 3b73e7fe-8bdc-44d9-9a28-08a8541fa98a
+credentials-file: /root/.cloudflared/3b73e7fe-8bdc-44d9-9a28-08a8541fa98a.json
+
+
+cloudflared tunnel route add slip-print --hostname test.asiawallet.net
+
+cloudflared tunnel route dns 3b73e7fe-8bdc-44d9-9a28-08a8541fa98a test.asiawallet.net
+
+cloudflared tunnel run 3b73e7fe-8bdc-44d9-9a28-08a8541fa98a
