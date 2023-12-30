@@ -1,442 +1,390 @@
 {
-  "id": "658e460b2c44432f87d81146",
-  "datetime": "2023-12-29T04:07:39.205Z",
-  "bill_date": "2023-12-29T04:07:33.265Z",
-  "bill_id": "2531703822859",
+  "id": "658dc65b657697b404a3f24a",
+  "datetime": "2023-12-28T19:02:51.161Z",
+  "bill_date": "2023-12-27T21:20:30Z",
+  "bill_id": "0261703790171",
   "bill_type": {
     "status": 2,
     "label": "Purchase Order"
   },
-  "table": "999",
+  "table": "V1",
   "status": {
-    "datetime": "2023-12-29T04:08:54.722Z",
-    "status": 2,
-    "label": "Paid",
+    "datetime": "2023-12-28T19:04:41.456Z",
+    "status": 10,
+    "label": "Completed",
     "description": "",
-    "by": "dev01 (DEV-01)"
+    "by": "EM01 (EM01)"
   },
   "status_history": [
     {
-      "datetime": "2023-12-29T04:07:39.211Z",
+      "datetime": "2023-12-28T19:02:51.165Z",
       "status": 1,
       "label": "Pending",
       "description": "",
-      "by": "dev01 (DEV-01)"
+      "by": "EM01 (EM01)"
     },
     {
-      "datetime": "2023-12-29T04:08:54.722Z",
+      "datetime": "2023-12-28T19:04:36.757Z",
       "status": 2,
       "label": "Paid",
       "description": "",
-      "by": "dev01 (DEV-01)"
+      "by": "EM01 (EM01)"
+    },
+    {
+      "datetime": "2023-12-28T19:04:41.456Z",
+      "status": 10,
+      "label": "Completed",
+      "description": "",
+      "by": "EM01 (EM01)"
     }
   ],
   "customer": {
-    "name": "MAX",
-    "member_id": "MAX00041",
-    "aka": "P0020",
-    "rank": 4,
+    "name": "เจเจ",
+    "member_id": "MAX00090",
+    "aka": "",
+    "rank": 2,
     "customer_type": "Member"
   },
   "order": [
     {
-      "id": "65700e800a4c470ade219e78",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Rice with fried mince",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e78/1701944796651998.webp",
-      "price": 33000,
+      "id": "65700e800a4c470ade219ea3",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Mineral Water",
+      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219ea3/1701963037942017.webp",
+      "price": 100,
       "category": 0,
       "subcategory": 0,
-      "size": "750 ml",
-      "quantity": 1,
+      "size": "500ml",
+      "quantity": 14,
       "order_timeline": [
         {
-          "datetime": "2023-12-29T04:08:41.057Z",
+          "datetime": "2023-12-28T19:02:51.165Z",
           "status": 1,
           "label": "Order",
           "description": "",
-          "by": "MAXDEV (DEV-01)"
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
         }
       ],
       "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
+        "datetime": "2023-12-28T19:02:51.165Z",
         "status": 1,
         "label": "Order",
         "description": "",
-        "by": "MAXDEV (DEV-01)"
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
       },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
       "seller_aka": "",
       "package": false,
       "points": 0,
       "commission": false
     },
     {
-      "id": "65700e800a4c470ade219e82",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Singleton 18Y",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e82/1701973248881477.webp",
-      "price": 8500,
-      "category": 0,
-      "subcategory": 0,
-      "size": "700ml",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e8b",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Belvedere 75cl",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e8b/1701952825852210.webp",
-      "price": 3500,
-      "category": 0,
-      "subcategory": 0,
-      "size": "750ml",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e63",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "VVIP Hennessy",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e63/1701970083139172.webp",
-      "price": 48900,
+      "id": "65700e800a4c470ade219ea5",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Ice",
+      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219ea5/1701962984151656.webp",
+      "price": 150,
       "category": 0,
       "subcategory": 0,
       "size": "",
-      "quantity": 1,
+      "quantity": 3,
       "order_timeline": [
         {
-          "datetime": "2023-12-29T04:08:41.057Z",
+          "datetime": "2023-12-28T19:02:51.165Z",
           "status": 1,
           "label": "Order",
           "description": "",
-          "by": "MAXDEV (DEV-01)"
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
         }
       ],
       "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
+        "datetime": "2023-12-28T19:02:51.165Z",
         "status": 1,
         "label": "Order",
         "description": "",
-        "by": "MAXDEV (DEV-01)"
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
       },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
       "seller_aka": "",
       "package": false,
       "points": 0,
       "commission": false
     },
     {
-      "id": "65700e800a4c470ade219e68",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "VVIP Grey Goose",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e68/1701972433690806.webp",
-      "price": 68900,
-      "category": 0,
-      "subcategory": 0,
-      "size": "",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e72",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "SSV Dom",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e72/1701972715606022.webp",
-      "price": 168900,
-      "category": 0,
-      "subcategory": 0,
-      "size": "",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e60",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "VVIP Grey Goose 36K",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e60/1701969763755842.webp",
-      "price": 36900,
-      "category": 0,
-      "subcategory": 0,
-      "size": "",
-      "quantity": 2,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e7a",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Moet & Chandon",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e7a/1701952538120628.webp",
-      "price": 0,
-      "category": 0,
-      "subcategory": 0,
-      "size": "750 ml",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e9a",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Cranberry Juice",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e9a/1701967840518949.webp",
-      "price": 180,
-      "category": 0,
-      "subcategory": 0,
-      "size": "",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219e91",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Hendrick",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e91/1701977590946561.webp",
-      "price": 5600,
-      "category": 0,
-      "subcategory": 0,
-      "size": "700ml",
-      "quantity": 1,
-      "order_timeline": [
-        {
-          "datetime": "2023-12-29T04:08:41.057Z",
-          "status": 1,
-          "label": "Order",
-          "description": "",
-          "by": "MAXDEV (DEV-01)"
-        }
-      ],
-      "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
-        "status": 1,
-        "label": "Order",
-        "description": "",
-        "by": "MAXDEV (DEV-01)"
-      },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
-      "seller_aka": "",
-      "package": false,
-      "points": 0,
-      "commission": false
-    },
-    {
-      "id": "65700e800a4c470ade219ea0",
-      "datetime": "2023-12-29T04:08:41.057Z",
-      "name": "Soda",
-      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219ea0/1701967559333149.webp",
+      "id": "65700e800a4c470ade219e9f",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Coke",
+      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e9f/1701967578384819.webp",
       "price": 100,
       "category": 0,
       "subcategory": 0,
       "size": "325ml",
-      "quantity": 16,
+      "quantity": 2,
       "order_timeline": [
         {
-          "datetime": "2023-12-29T04:08:41.057Z",
+          "datetime": "2023-12-28T19:02:51.165Z",
           "status": 1,
           "label": "Order",
           "description": "",
-          "by": "MAXDEV (DEV-01)"
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
         }
       ],
       "status": {
-        "datetime": "2023-12-29T04:08:41.057Z",
+        "datetime": "2023-12-28T19:02:51.165Z",
         "status": 1,
         "label": "Order",
         "description": "",
-        "by": "MAXDEV (DEV-01)"
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
       },
-      "seller": "M00020",
-      "seller_id": "6573f768a60d986268350f71",
-      "seller_name": "MAXDEV",
-      "seller_username": "dev01",
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "65700e800a4c470ade219e5e",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "VVIP Hennessy",
+      "image": "https://d1g62mgjxs1def.cloudfront.net/MAXWALLET/products/65700e800a4c470ade219e5e/1701969619838528.webp",
+      "price": 31350.892098555647,
+      "category": 0,
+      "subcategory": 0,
+      "size": "",
+      "quantity": 1,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:02:51.165Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:02:51.165Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "65846a65a270b7ac4d38bada",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Salmon Roll",
+      "image": "",
+      "price": 480,
+      "category": 0,
+      "subcategory": 0,
+      "size": "m",
+      "quantity": 1,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:02:51.165Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:02:51.165Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "65871239a270b7ac4d38bc58",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Salmon sashimi",
+      "image": "",
+      "price": 390,
+      "category": 0,
+      "subcategory": 0,
+      "size": "s",
+      "quantity": 2,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:02:51.165Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:02:51.165Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "65845a6e75f90163153f7690",
+      "datetime": "2023-12-28T19:02:51.165Z",
+      "name": "Iwakaki sashimi",
+      "image": "",
+      "price": 490,
+      "category": 0,
+      "subcategory": 0,
+      "size": "m",
+      "quantity": 1,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:02:51.165Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:02:51.165Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "658dc68c657697b404a3f252",
+      "datetime": "2023-12-28T19:04:02.558Z",
+      "name": "Amaboko Sashimi",
+      "image": "",
+      "price": 360,
+      "category": 0,
+      "subcategory": 0,
+      "size": "s",
+      "quantity": 1,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:04:02.558Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:04:02.558Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
+      "seller_aka": "",
+      "package": false,
+      "points": 0,
+      "commission": false
+    },
+    {
+      "id": "658dc676657697b404a3f24e",
+      "datetime": "2023-12-28T19:04:02.558Z",
+      "name": "Tako Sashimi",
+      "image": "",
+      "price": 550,
+      "category": 0,
+      "subcategory": 0,
+      "size": "m",
+      "quantity": 1,
+      "order_timeline": [
+        {
+          "datetime": "2023-12-28T19:04:02.558Z",
+          "status": 1,
+          "label": "Order",
+          "description": "",
+          "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+        }
+      ],
+      "status": {
+        "datetime": "2023-12-28T19:04:02.558Z",
+        "status": 1,
+        "label": "Order",
+        "description": "",
+        "by": "มณฑลวิสิฌ ศรีวะรมย์ (EM01)"
+      },
+      "seller": "EM01",
+      "seller_id": "656ffea61873af699fb95fd2",
+      "seller_name": "มณฑลวิสิฌ ศรีวะรมย์",
+      "seller_username": "EM01",
       "seller_aka": "",
       "package": false,
       "points": 0,
       "commission": false
     }
   ],
-  "operator": "DEV-01",
-  "discount_list": [],
-  "discount": 0,
-  "price": 412880,
+  "operator": "EM01 (EM01)",
+  "discount_list": [
+    {
+      "name": "dis20",
+      "count": 1,
+      "type": {
+        "id": 1,
+        "label": "discount"
+      },
+      "result": 7212.18,
+      "by": "name:มณฑลวิสิฌ ศรีวะรมย์ userID:EM01"
+    }
+  ],
+  "discount": 7212.18,
+  "price": 36060.89209855565,
   "points": 0,
-  "price_with_discount": 412880,
+  "price_with_discount": 28848.712098555647,
   "payment_proof": "",
-  "service_charge": 41288,
-  "vat": 31791.760000000002,
-  "rounding": 0.23999999999068677,
-  "total": 485960,
-  "payment": "",
+  "service_charge": 2884.8712098555648,
+  "vat": 2221.3508315887852,
+  "rounding": 0.06586000000243075,
+  "total": 33955,
+  "payment": "wallet",
   "percent_service_charge": 10,
   "is_service_charge": true,
   "is_vat": true
