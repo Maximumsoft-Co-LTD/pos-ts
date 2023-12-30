@@ -69,6 +69,7 @@ type Bill struct {
 	Operator             string        `json:"operator"`
 	DiscountList         []interface{} `json:"discount_list"`
 	Discount             float64       `json:"discount"`
+	DiscountPercent      float64       `json:"discount_percent"`
 	Price                float64       `json:"price"`
 	Points               float64       `json:"points"`
 	PriceWithDiscount    float64       `json:"price_with_discount"`

@@ -1,5 +1,5 @@
 # pos-ts
-
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -a -installsuffix cgo -o printslip.exe _cmd/main.go
 
 			// p.SetSmooth(1)
 			// p.SetFontSize(2, 3)

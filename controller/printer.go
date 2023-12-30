@@ -212,9 +212,10 @@ func Printer() func(c *gin.Context) {
 
 		fmt.Println("maxLengthAmount", maxLengthAmount)
 		// var maxLengthPriceEndSlip int
+
 		// // Print subtotal, discount, service charge, and other details
 		service.PrintTextWithSpace(printer, "Subtotal: ", data.Price, 35, maxLengthAmount)
-		service.PrintTextWithSpace(printer, "Discount: ", data.Discount, 35, maxLengthAmount)
+		service.PrintTextWithSpace(printer, "Discount("+fmt.Sprint(data.DiscountPercent)+"%): ", data.Discount, 35, maxLengthAmount)
 		service.PrintTextWithSpace(printer, fmt.Sprintf("Service Charge(%d%%): ", data.PercentServiceCharge), (data.ServiceCharge), 35, maxLengthAmount)
 
 		service.PrintTextWithSpace(printer, "Before VAT: ", grandTotal, 35, maxLengthAmount)
@@ -231,6 +232,11 @@ func Printer() func(c *gin.Context) {
 		printer.Write("----------------------------------------------\n")
 		printer.SetAlign("center")
 		printer.Write("Thank you for your order!\n")
+
+		c.JSON(200, gin.H{
+			"code": 200,
+			"msg":  "Print Successful",
+		})
 
 	}
 }
