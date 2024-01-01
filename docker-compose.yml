@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  pos-ts-ms:
+    build: ./
+    container_name: pos-ts-ms
+    image: thezeusthech/pos-ts-ms:v1.0.0
+

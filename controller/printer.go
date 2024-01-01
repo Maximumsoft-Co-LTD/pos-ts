@@ -2,6 +2,7 @@ package controller
 
 import (
 	"encoding/json"
+	"time"
 
 	"escpos/model"
 	"escpos/service"
@@ -47,47 +48,25 @@ func Printer(IP string, Bill model.Bill) { //func(c *gin.Context) {
 
 	defer conn.Close()
 
-	// Create a new ESC/POS printer
 	printer := escpos.New(conn)
 
-	// Initialize the printer
-
-	// Load your JSON data here (data from test.json)
 	data := Bill
-	// return
+
 	orders := data.Order
 	item := 0
 
-	// Initialize the formatter for currency
-	// formatter := NewCurrencyFormatter("th-TH", "THB")
-
-	// Get the current date and time
 	dataTime := data.Datetime
-	dateTime := dataTime.Format("02/01/2006 15:04")
+	dateTimeNew7 := dataTime.Add(7 * time.Hour)
 
-	fmt.Println(dateTime)
-
-	// Print the receipt
 	printer.Init()
-	// if err != nil {
-	// 	c.JSON(400, gin.H{
-	// 		"code":  400,
-	// 		"msg":   "ERROR CALL API DOMAIN",
-	// 		"error": err.Error(),
-	// 	})
-
-	// 	return
-	// }
 	defer printer.End()
 	defer printer.Cut()
-
 	// printer.SetSmooth(128)
 	printer.SetLang("en")
 	printer.SetFont("B")
 	printer.SetAlign("center")
 
 	printer.SetFontSize(3, 2)
-
 	// Print the header
 	printer.SetEmphasize(1)
 	printer.Write("MAX WALLET\n\n")
@@ -110,10 +89,10 @@ func Printer(IP string, Bill model.Bill) { //func(c *gin.Context) {
 		CustomerName = data.Customer.Aka
 	}
 
-	printer.Write(fmt.Sprintf("CUSTOMER: %s\n", CustomerName))
-
-	dateLine := fmt.Sprintf("DATE: %s", dataTime.Format("02/01/2006"))
-	timeLine := fmt.Sprintf("TIME: %s", dataTime.Format("15:04"))
+	printer.Write(fmt.Sprintf("CUSTOMER: %s   REF: \n", CustomerName))
+	fmt.Println("datetime ----- ", dateTimeNew7.Format("02/01/2006 15:04"))
+	dateLine := fmt.Sprintf("DATE: %s", dateTimeNew7.Format("02/01/2006"))
+	timeLine := fmt.Sprintf("TIME: %s", dateTimeNew7.Format("15:04"))
 	totalLine := len(dateLine) + len(fmt.Sprint(timeLine))
 	spacesNeeded := service.Max(0, 48-totalLine)
 	spaces := service.Repeat(" ", spacesNeeded)

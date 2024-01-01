@@ -65,7 +65,7 @@ func StartServer() {
 			billbytes, _ := json.Marshal(v)
 			json.Unmarshal(billbytes, &bill)
 
-			controller.Printer("192.168.1.148", bill)
+			controller.Printer("printer-maxclub.maxpos.io", bill)
 			refEachBill := client.NewRef("bills/" + i + "/")
 
 			if err := refEachBill.Delete(context.TODO()); err != nil {
